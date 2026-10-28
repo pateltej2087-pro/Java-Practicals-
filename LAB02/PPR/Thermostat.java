@@ -41,7 +41,7 @@ public class Thermostat {
         return activeCount;
     }
     public static void main(String[] args){
-        Thermostat t1=new Thermostat("Kitchen", 25);
+        Thermostat t1=new Thermostat("Kitchen",25);
         Thermostat t2=new Thermostat("Living Room");
         System.out.println("Increasing Temperature");
         for (int i=0;i<10;i++) {
@@ -56,4 +56,3 @@ public class Thermostat {
         System.out.println("\nActive Thermostats=" + Thermostat.getCount());
     }
 }
-

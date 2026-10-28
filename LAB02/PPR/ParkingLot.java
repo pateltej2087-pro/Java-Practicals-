@@ -1,17 +1,14 @@
 import java.util.Scanner;
-
 public class ParkingLot {
     private int twoWheelers;
     private int fourWheelers;
     private final int twoCap;
     private final int fourCap;
     private static long revenue=0;
-
     public ParkingLot(int twoCap, int fourCap){
         this.twoCap=twoCap;
         this.fourCap=fourCap;
     }
-
     public void park(String type){
         if(type.equals("two")){
             if(twoWheelers<twoCap){

@@ -1,0 +1,7 @@
+*.class
+out/
+test-out/
+data/
+PROJECT_backup_*/
+MiniBank_Setup_Temp_*/
+Setup_MiniBank.ps1
